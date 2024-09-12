@@ -663,7 +663,7 @@ header .main_nav li i{
     color: #252525;
     width: 60%;
 
-    @media(max-width:370px){
+    @media(max-width:700px){
         width: 100%;
     }
 }
@@ -671,6 +671,10 @@ header .main_nav li i{
 /* Mission */
 .mission{
     margin: 10% 0 0 40%;
+
+    @media(max-width:700px){
+        margin: 15% 0 0 0;
+    }
 }
 
 .mission_img{
@@ -689,6 +693,10 @@ header .main_nav li i{
 /* Vision */
 .vision{
     margin: 10% 0 0 0;
+
+    @media(max-width:700px){
+        margin: 15% 0 0 0;
+    }
 }
 
 .vision_img{
@@ -703,7 +711,7 @@ header .main_nav li i{
     color: #252525;
     width: 60%;
 
-    @media(max-width:370px){
+    @media(max-width:700px){
         width: 100%;
     }
 }
@@ -711,6 +719,10 @@ header .main_nav li i{
 /* Values */
 .values{
     margin: 10% 0 0 40%;
+
+    @media(max-width:700px){
+        margin: 15% 0 0 0;
+    }
 }
 
 .values_img{
