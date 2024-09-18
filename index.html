@@ -19,7 +19,7 @@
                     <li><a href="#hero_section" class="active_nav">Home</a></li>
                     <li><a href="#features">Features</a></li>
                     <li><a href="#about_dzidzai">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <button class="header_button">Get the App</button>
                 <!-- Off Screen Menu -->
@@ -31,7 +31,9 @@
                         &nbsp;
                         <li><a href="#about_dzidzai">About</a></li>
                         &nbsp;
-                        <li><a href="">Contact</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        &nbsp;
+                        <li><button class="ham_button">Get the App</button></li>
                     </ul>
                  </div>
                 <!-- Ham Menu Icon-->
@@ -222,6 +224,73 @@
                 </div>
             </div>
         </section>
+
+        <!-- Contact -->
+         <section id="contact">
+            <div class="overall_container">
+                <div class="contact_section_grid_container">
+                    <div class="contact_details_container">
+                        <p class="contact_par">We’re here to help! Whether you have questions about DzidzAI, need support, or just want to share your feedback, feel free to reach out. Our team is always ready to assist you.</p>
+                        <div class="contact_details_details_container">
+                            <p class="conact_details_head">Contact Details</p>
+                            <p class="email"><a href="">support@dzidzai.co.zw</a></p>
+                            <p class="number"><a href="">+263 00 000 0000</a></p>
+                        </div>
+                    </div>
+                    <div class="contact_form_container">
+                        <form class="form">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required>
+
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required>
+
+                            <label for="subject">Subject</label>
+                            <select id="service" name="subject" required>
+                                <option value="" disabled selected></option>
+                                <option value="national">National Transportation </option>
+                                <option value="cross">Cross Border Transport</option>
+                                <option value="short">Short Distance Haulage</option>
+                                <option value="long">Long Distance Haulage</option>
+                                <option value="taut">Taut Liners</option>
+                                <option value="specific">Specific Inquiry</option>
+                            </select>
+                            
+                            <label for="message">Your Message</label>
+                            <textarea id="message" rows="6" required></textarea>
+                            <button type="submit" class="submit_btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- Footer -->
+          <footer>
+            <div class="overall_container">
+                <div class="footer_container">
+                    <div class="footer_logo">
+                        <p class="logo_name">Dzidz<span>AI</span></p>
+                        <img class="footer_phone" src="./assets/images/DzidAI-footer.png" alt="">
+                    </div>
+                    <div class="quick_links">
+                        <p class="quick_links_head">Quick Links</p>
+                        <ul>
+                            <li><a href="#hero_section">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#about_dzidzai">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><button class="footer_button">Get the App</button></li>
+                        </ul>
+                    </div>
+                    <div class="subscription">
+                        <p class="subscription_head">Subscribe to our Newsletter</p>
+                        <input class="subscription_input" required type="email" id="email" placeholder="Enter your Email Address">
+                        <button class="subscription_btn">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+          </footer>
 
 
     <script src="./javascripts/main.js"></script>
