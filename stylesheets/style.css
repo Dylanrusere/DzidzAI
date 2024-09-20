@@ -839,7 +839,7 @@ footer{
 .footer_container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 4%;
+    gap: 70%;
 
     @media(max-width:700px){
         grid-template-columns: 1fr;
@@ -869,6 +869,10 @@ footer{
 
 .footer_phone{
     width: 50%;
+}
+
+.quick_links{
+
 }
 
 .quick_links_head{
