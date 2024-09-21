@@ -838,8 +838,8 @@ footer{
 
 .footer_container{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 70%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4%;
 
     @media(max-width:700px){
         grid-template-columns: 1fr;
@@ -872,7 +872,14 @@ footer{
 }
 
 .quick_links{
+    margin-left: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
+    @media(max-width:700px){
+        margin-left: 0;
+    }
 }
 
 .quick_links_head{
